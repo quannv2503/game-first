@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bouncing Ball</title>
+    <link rel="stylesheet" href="../untitled/Style.css">
+</head>
+<body onload="loadGame()">
+<canvas id="myCanvas"></canvas>
+<div id ="gameBoard">
+    Setting
+    <input type="button" value="Change Background" onclick="drawBackground()">
+    Read this First
+    <input type="button" value="INSTRUCTION" onclick="showInstructor()" style="background-color: red; height: 50px; font-size: 25px">
+    <br>
+    Play Game
+    <input type="button" value="Start" onclick="startGame()" style="background-color: green; color: white">
+    <br>
+    Reset to Play the next game
+    <input type="button" value="Reset" onclick="reset()">
+    <br><br>
+    SCORE:
+    <div id ="score-board" style="font-size: 60px"></div>
+</div>
+</body>
+</html>
+
+<script src="function.js"></script>
+<script src="../untitled/NotKnow.js"></script>
+<script src="Bar.js"></script>
+<script src="Balls.js"></script>
+<script src="Bricks.js"></script>
+<script src="general.js"></script>
+
+
+

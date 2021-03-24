@@ -1,0 +1,19 @@
+canvas{
+    border: 2px solid black;
+}
+#gameBoard{
+    border: 3px solid red;
+    width: 280px;
+    height: 600px;
+    position: absolute;
+    margin-left: 1060px;
+    margin-top: -610px;
+    text-align: center;
+    font-size: 30px;
+}
+input{
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}

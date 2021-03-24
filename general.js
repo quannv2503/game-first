@@ -1,0 +1,22 @@
+let canvas = document.getElementById("myCanvas");
+let ctx = canvas.getContext("2d");
+canvas.width = 1050;
+canvas.height = 600;
+let isOver = false;
+let isStart = false;
+let isWin = false;
+let myBricks = [];
+let myBar = new Bar();
+let myBall = [];
+myBall[0] = new Balls();
+let myTimer = [];
+let myScore = new GetScore();
+let myNotKnow = [];
+let timeSpeed = 20;
+let timeID;
+let backgroundID = 1;
+let colorLive = ["","white","green","yellow","red"];
+let backgroundImg = new Image();
+let soundHit;
+let soundBegin;
+let startText = "A GAME EVEN MR. SON.MC CAN NOT WIN"
